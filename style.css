@@ -1,0 +1,74 @@
+/* Coded By : Abdelrahman Elrefai Tawfik */
+/* a qr-code card challenge  */
+/*  9th challenge in front end mentor newbie zone */
+/* Colors */
+:root {
+    --white:hsl(0, 0%, 100%);
+    --light-gray:hsl(212, 45%, 89%);
+    --gray-blue:hsl(220, 15%, 55%);
+    --dark-blue:hsl(218, 44%, 22%);
+}
+/* general rules */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition:.2s;
+}
+/* offline font */
+@font-face {
+    font-family: outfit;
+    src: url(font/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: outfit-heavy;
+    src: url(font/static/Outfit-Bold.ttf);
+}
+/* Body Styling */
+body{
+    height:100vh;
+    background-color: var(--light-gray);
+    font-family:outfit ,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* card container styling */
+.qr {
+    width:300px;
+    background-color: var(--white);
+    border-radius: 20px;
+}
+.qr-img {
+    padding:15px;
+    padding-bottom: 0;
+    border-radius: 10px;
+}
+.qr-img img {
+    width:100%;
+    border-radius:10px;
+}
+.head {
+    padding:25px;
+}
+.head h1 {
+    font-family:outfit-heavy, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+.head p {
+    padding-top: 10px;
+    color: var(--gray-blue);
+    opacity: .7;
+}
+/* responsive media */
+@media screen and (min-width:1440px) {
+
+
+
+
+}
